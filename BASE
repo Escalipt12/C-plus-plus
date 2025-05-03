@@ -1,28 +1,55 @@
 #include <windows.h>
+#include <vector>
 #include <iostream>
-#include <string>
 
 
 
-namespace Fedya1{
-	std::string Jump() {
-		return "Maz";
-	}
+namespace Fedya {
+    std::string text() {
+        return "Ilyxa go temki?";
+    }
 }
-namespace Fedya2 {
-	bool FFF() {
-		return false;
-	}
+namespace Ilyxa {
+    std::string otvet() {
+        return "Wa crypto bydet";
+    }
 }
-void main() {
-	bool a = Fedya2::FFF();
-	if (a) {
-		std::cout << a << std::endl;
-		std::string Fedya12 = Fedya1::Jump();
-			std::cout << Fedya12 << std::endl;
+namespace crypto {
+    bool dadanetnet() {
+        return true;
+    }
+}
+namespace xasl {
+    std::string xaslo() {
+        return "Portfel v pluse";
+    }
+}
+namespace monitorsolana {
+    std::string BTC() {
+        return "80k";
+    }
+    std::string Solana() {
+        return "200rub";
+    }
 
-	}
-	else {
-		std::cout << "error" << std::endl;
-	}
 }
+int main() {
+    std::string Fedos = Fedya::text();
+    std::cout << Fedos << std::endl;
+    std::string Ilya = Ilyxa::otvet();
+    std::cout << Ilya << std::endl;
+    std::string xasloxaslo = xasl::xaslo();
+    bool a = crypto::dadanetnet();
+    if (a) {
+        std::cout << xasloxaslo << std::endl;
+    }
+    else {
+        std::cout << "Portfel v minuse" << std::endl;
+    }
+    std::string BTC1 = monitorsolana::BTC();
+    std::cout << BTC1 << std::endl;
+    std::string Solana1 = monitorsolana::Solana();
+    std::cout << Solana1 << std::endl;
+    
+    return 0;
+    
