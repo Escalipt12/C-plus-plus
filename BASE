@@ -1,0 +1,28 @@
+#include <windows.h>
+#include <iostream>
+#include <string>
+
+
+
+namespace Fedya1{
+	std::string Jump() {
+		return "Maz";
+	}
+}
+namespace Fedya2 {
+	bool FFF() {
+		return false;
+	}
+}
+void main() {
+	bool a = Fedya2::FFF();
+	if (a) {
+		std::cout << a << std::endl;
+		std::string Fedya12 = Fedya1::Jump();
+			std::cout << Fedya12 << std::endl;
+
+	}
+	else {
+		std::cout << "error" << std::endl;
+	}
+}
