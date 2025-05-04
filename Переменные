@@ -1,0 +1,49 @@
+#include <windows.h>
+#include <vector>
+#include <iostream>
+
+
+
+namespace Fedya {
+
+}
+
+
+int main() {
+	setlocale(LC_ALL, "Rus");
+	short numb = 2;
+	unsigned short numb1 = 5;
+	float numb3  = 5.5;
+	float numb4 = 5.556F;
+	double numb5 = 37345353.4342;
+	char sym = '+';
+	auto sum = 5;
+	auto dell = "haha";
+	auto ag = "+";
+	auto gg = 5.5;
+	int dd{ 10 };
+	const std::string a = "dddddd";
+	const float  a = 4.6;
+	std::cout << "Привет" << std::endl; 
+	std::cout << "1111" << std::endl;
+	std::cout << numb << std::endl;
+	std::cout << numb1 << std::endl;
+	std::cout << LLONG_MAX << std::endl;
+	std::cout << numb3 << std::endl;
+	std::cout << numb4 << std::endl;
+	std::cout << numb5 << std::endl;
+	std::cout << sym << std::endl;
+	char user1;
+	char user2;
+	std::cout << "Enter number 1: ";
+	std::cin >> user1;
+	std::cout << "Enter number 2: ";
+	std::cin >> user2;
+	std::cout << user1 << std::endl;
+	std::cout << user2 << std::endl;
+
+
+	system("pause");
+	return 0;
+
+}
