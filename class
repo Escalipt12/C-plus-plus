@@ -1,0 +1,23 @@
+class market {
+private:
+	int stars;
+public:
+	market(int count) {
+		stars = count;
+	}
+	
+	int get_stars() {
+		return stars;
+	}
+};
+
+int main(){
+
+	market b(1500);
+	
+
+
+	std::cout << b.get_stars() << std::endl;
+	return 0;
+
+}
