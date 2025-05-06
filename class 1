@@ -1,0 +1,30 @@
+#include <windows.h>
+#include <vector>
+#include <iostream>
+#include <string>
+
+
+
+
+
+
+class animal {
+private:
+	animal() = default;
+public:
+	static int dogs1(int count){
+		static int dogs = count;
+		return dogs;
+
+	}
+
+
+};
+
+int main() {
+
+	std::cout << animal::dogs1(1500) << std::endl;
+	return 0;
+	
+	
+}
