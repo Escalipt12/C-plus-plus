@@ -1,0 +1,11 @@
+int main() {
+	int a = 5;
+	
+
+	std::cout << reinterpret_cast<void*>(&a) << std::endl;;
+	std::cout << &a << std::endl; getchar();
+	while (true) {
+		std::cout << a << std::endl;
+		Sleep(500);
+	}
+}
