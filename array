@@ -1,0 +1,30 @@
+#include <windows.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <vector>
+
+
+
+
+
+
+int main() {
+
+	std::vector <int> number = { 1 , 2 , 3 , 4 , 5};
+	std::vector <bool> boll = { true , true , false , false };
+	std::vector <std::string>  list = { "fedyka " , "pioras" , "tomov" };
+	std::cout << number[2 ] << std::endl; std::cout << boll[2] << std::endl; std::cout << list[2] << std::endl;
+	std::cout << number.size() << std::endl;
+	number.push_back(3);
+	number.emplace_back();
+	if (number.empty()) { // пустой массив 
+		
+	}
+	for (auto test : number) {
+		std::cout << test << std::endl;
+	};
+	number.~vector();
+
+	return 0;
+
