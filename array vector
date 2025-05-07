@@ -35,5 +35,19 @@ int main() {
 	return 0;
 
 
+
+       // 	int a , b , c , d , e ;
+	std::cin >> a;
+	std::cin >> b;
+	std::cin >> c;
+	std::cin >> d;
+	std::cin >> e;
+	std::vector <int> number = { a , b , c  , d  , e };
+	for (auto test : number) {
+		std::cout << test;
+	}
+
+
+
 	
 }
