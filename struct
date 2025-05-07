@@ -1,0 +1,12 @@
+struct car {
+	int FFFF = 3 ;
+	int GGGG = 3;
+}car; 
+
+
+int main() {
+
+	std::cout << car.FFFF << std::endl;
+
+	
+}
