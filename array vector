@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <array>
 
 
 
@@ -26,5 +27,13 @@ int main() {
 	};
 	number.~vector();
 
+	
+	std::array <int, 2 > numbers1 = { 1  , 2};
+	for (auto test1 : numbers1) {
+		std::cout << test1;
+	}
 	return 0;
 
+
+	
+}
