@@ -1,0 +1,29 @@
+#include <string>
+#include <vector>
+#include <array>
+
+
+namespace alonny{
+	std::string govorit() {
+		return "FEDKA";
+	}
+}
+
+void  fedya() {
+	bool tomov = true;
+	std::string a = alonny::govorit();
+	if (tomov) {
+		std::cout << a << std::endl;
+	}
+
+
+}
+
+int main() {
+
+	fedya();
+
+
+	
+	
+}
